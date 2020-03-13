@@ -180,3 +180,67 @@ footer p {
     color: #fff;
     margin-top: 30px;
 }
+
+@media screen and (max-width:768px) {
+    .principal img {
+        width: 40%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .proye-content {
+        flex-wrap: wrap;
+    }
+    .proye-content div {
+        width: 40%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .principal {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    .principal div {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .principal img {
+        width: 60%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .proye-content {
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 5%;
+    }
+    .proye-content div {
+        width: 40%;
+        margin: 10px 0;
+    }
+    .proye-content div p {
+        line-height: 15px;
+        font-size: 16px;
+    }
+    .contact-main-container {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .contact-main-container .text {
+        width: 100%;
+        margin: 0 0;
+    }
+    .contact-main-container .text h4 {
+        margin: 0 auto;
+    }
+    .contact-main-container .contact-left {
+        width: 100%;
+    }
+    .contact-main-container .contact-right {
+        width: 100%;
+    }
+}
